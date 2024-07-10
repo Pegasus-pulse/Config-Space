@@ -22,11 +22,11 @@ sudo apt install -y wayland-protocols
 
 # App launcher (rofi wayland-fork)
 printf "\e[1;32mInstalling rofi-wayland...\e[0m\n"
-bash ~/tes/other/rofi-wayland
+bash ~/sway/builds/rofi-wayland
 
 # Nwg-look lxappearance for wayland
 printf "\e[1;32mInstalling nwg-look...\e[0m\n"
-bash ~/tes/other/nwg-look
+bash ~/sway/builds/nwg-look
 
 # Screenshots in Wayland
 printf "\e[1;32mInstalling screenshot-tools...\e[0m\n"

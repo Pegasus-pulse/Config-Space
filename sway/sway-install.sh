@@ -44,8 +44,6 @@ sudo apt install -y firefox
 # Network File Tools/System Events
 printf "\e[1;32mInstalling network/system-tools...\e[0m\n"
 sudo apt install -y dialog avahi-daemon acpi acpid gvfs-backends
-sudo systemctl enable avahi-daemon
-sudo systemctl enable acpid
 # Notifications
 sudo apt install -y mako-notifier libnotify-dev xdotool
 
@@ -68,7 +66,6 @@ sudo apt install -y neovim
 # Printing
 printf "\e[1;32mInstalling printing-tools...\e[0m\n"
 sudo apt install -y cups system-config-printer
-sudo systemctl enable cups
 
 # PDF
 printf "\e[1;32mInstalling pdf-viewer...\e[0m\n"

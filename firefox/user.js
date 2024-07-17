@@ -298,6 +298,7 @@ user_pref("layout.css.backdrop-filter.enabled", true);
 
 // PREF: Special for FirefoxGX Skin
 user_pref("firefoxgx.left-sidebar", true);
+user_pref("browser.newtabpage.activity-stream.newtabWallpapers.enabled", true);
 
 //PREF: TAB Previews
 user_pref("browser.tabs.cardPreview.enabled", true);
@@ -306,7 +307,7 @@ user_pref("browser.tabs.cardPreview.delayMs", 500);
 
 // PREF: disable the built-in translator
 user_pref("browser.translations.automaticallyPopup", false);
-
+user_pref("browser.translations.select.enable", false);
 
 
 /****************************************************************************
